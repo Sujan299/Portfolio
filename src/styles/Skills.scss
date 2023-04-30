@@ -1,0 +1,50 @@
+@import './colors.scss';
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container .content{
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+.container .content span{
+    color: $headerColor;
+}
+.container .content h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+.container .content .skillSet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.4rem;
+    font-family: 'Fira Sans', sans-serif;
+    >input{
+        width: 50%;
+        margin: 0.5rem 0;
+    }
+}
+.container .content .skillSet h3{
+    margin: 0.5rem 0;
+}
+.container .content .skillSet input{
+    padding: 1rem;
+}
+@media screen and (max-width: 1112px){
+    .container .content .skillSet input{
+        width: 70%;
+        margin: 0.5rem 0;
+
+    }
+}
+@media screen and (max-width: 535px){
+    .container .content .skillSet input{
+        width: 90%;
+        margin: 0.5rem 0;
+
+    }
+}

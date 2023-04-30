@@ -1,0 +1,87 @@
+@import './colors.scss';
+.container .content {
+    padding-top: 3rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+.container .content span {
+    color: $headerColor;
+}
+
+.container .content h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.container .content .projectSet {
+    font-family: 'Fira Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .content .projectSet h5{
+    background-color: blue;
+    margin: 0.5rem 0;
+    padding: .2rem;
+    border-radius: .4rem;
+}
+.container .content .projectSet button a{
+    text-decoration: none;
+}
+.container .content .projectSet div {
+    margin-top: 4rem;
+    margin-right: 3.4rem;
+}
+
+.container .content .projectSet div img {
+    width: 18rem;
+    margin: 0.3rem 0;
+
+}
+.container .content .projectSet div h4{
+    // width: 18rem;
+    margin: 0.3rem 0;
+
+}
+.container .content .projectSet div button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: .5s;
+    border-radius: .5rem;
+    border: none;
+}
+.container .content .projectSet div button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+@media screen and (max-width: 940px){
+    .container .content .projectSet div {
+        margin-top: 4rem;
+        margin-right: 0.5rem;
+    }
+    
+}
+@media screen and (max-width: 848px){
+    .container .content .projectSet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+.container .content .projectSet div img {
+    width: 26rem;
+
+}
+}
+@media screen and (max-width: 652px){
+.container .content .projectSet div img {
+    width: 18rem;
+
+}
+}
+@media screen and (max-width: 561px){
+    .container .content .projectSet div img {
+        width: 16rem;
+    }
+    }

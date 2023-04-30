@@ -1,0 +1,114 @@
+  @import './colors.scss';
+
+  * {
+      padding: 0;
+      margin: 0;
+  }
+
+  .container {
+
+      padding: 0 8rem;
+      background-color: black;
+  }
+
+  .container .nav-list {
+      padding: 0 8rem;
+      display: flex;
+      justify-content: space-between;
+      height: 4.7rem;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: black;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  .container .nav-list h1 {
+      color: white;
+      font-weight: bolder;
+
+      >span {
+          color: $headerColor;
+      }
+  }
+
+  .container .nav-list a {
+      text-decoration: none;
+      color: white;
+      margin: 0 0 0 3rem;
+      transition: .5s;
+  }
+
+  .container .nav-list a:hover {
+      color: $headerColor;
+  }
+
+  .option {
+      color: white;
+      display: none;
+  }
+
+  //   @media screen and (max-width: 926px) {
+  //       .container {
+  //           padding: 0 4rem;
+  //           background-color: black;
+  //       }
+  //   }
+
+  @media screen and (max-width: 822px) {
+      .option {
+          display: block;
+      }
+
+      .hiddenBtn {
+          display: none;
+      }
+
+      .showBtn {
+          position: fixed;
+          width: 100%;
+          height: 50vh;
+          background-color: black;
+          top: 4.7rem;
+          left: 0;
+          right: 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .container .nav-list a {
+          text-decoration: none;
+          color: #ff534f;
+          margin: 2.4rem 0 0 0;
+      }
+  }
+
+  @media screen and (max-width: 702px) {
+
+      .container .nav-list {
+          padding: 0 6rem;
+      }
+  }
+
+  @media screen and (max-width: 452px) {
+
+      .container .nav-list {
+          padding: 0 4rem;
+      }
+  }
+
+  @media screen and (max-width: 366px) {
+
+      .container .nav-list {
+          padding: 0 2rem;
+      }
+  }
+
+  @media screen and (max-width: 426px) {
+      .container .nav-list {
+          padding: 0 1.2rem;
+      }
+  }

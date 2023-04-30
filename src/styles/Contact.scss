@@ -1,0 +1,63 @@
+.container .content .contact form {
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.7rem;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.container .content .contact form h1,
+input,
+textarea,
+.button1 {
+    margin: 0.5rem 0;
+    padding: .8rem;
+    border: none;
+    max-width: 40%;
+    width: 40%;
+}
+
+@media screen and (max-width: 996px) {
+
+    .container .content .contact form h1,
+    input,
+    textarea,
+    .button1 {
+        margin: 0.5rem 0;
+        padding: .8rem;
+        border: none;
+        max-width: 60%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 702px) {
+
+    .container .content .contact form h1,
+    input,
+    textarea,
+    .button1 {
+        margin: 0.5rem 0;
+        padding: .8rem;
+        border: none;
+        max-width: 80%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 426px) {
+
+    .container .content .contact form h1,
+    input,
+    textarea,
+    .button1 {
+        margin: 0.5rem 0;
+        padding: .8rem;
+        border: none;
+        max-width: 90%;
+        width: 90%;
+    }
+}

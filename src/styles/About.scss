@@ -1,0 +1,44 @@
+// font-family: 'DynaPuff', cursive;
+// font-family: 'Fira Sans', sans-serif;
+// font-family: 'Roboto', sans-serif;
+
+.container .content .about {
+    height: 53vh;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    margin-top: 4.7rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container .content .about ul li {
+    list-style: none;
+    margin: 0.5rem 0;
+}
+@media screen and (max-width: 702px) {
+
+    .container {
+        padding: 0 6rem;
+    }
+}
+
+@media screen and (max-width: 452px) {
+
+    .container {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 366px) {
+
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .container {
+        padding: 0 1.2rem;
+    }
+}
